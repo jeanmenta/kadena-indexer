@@ -1,4 +1,3 @@
-// test-db.ts
 import pool from "./db";
 
 (async () => {

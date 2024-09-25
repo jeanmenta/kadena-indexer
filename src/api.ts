@@ -1,7 +1,6 @@
-// src/api.ts
 import express from "express";
 import pool from "./db";
-import cors from "cors"; // Import cors
+import cors from "cors";
 
 const app = express();
 const port = process.env.PORT || 3000;

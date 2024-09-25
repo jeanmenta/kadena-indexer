@@ -1,4 +1,3 @@
-// indexer.ts
 import axios from "axios";
 import pool from "./db";
 import { KADENA_NODE_URL, POLLING_INTERVAL } from "./config";
@@ -6,7 +5,7 @@ import winston from "winston";
 
 // Set up logger
 const logger = winston.createLogger({
-  level: "info", // Set to 'debug' for more detailed logs
+  level: "info",
   format: winston.format.combine(
     winston.format.timestamp(),
     winston.format.json()
